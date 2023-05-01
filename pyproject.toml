@@ -1,28 +1,27 @@
 [tool.poetry]
-name = "growing-tube-model-estimation"
-version = "0.0.1a"
-description = ""
 authors = ["Noshita, Koji <noshita@morphometrics.jp>"]
+description = ""
 license = "Apache-2.0"
-readme = "README.md"
+name = "growing-tube-model-estimation"
 packages = [{include = "growing_tube_model_estimation"}]
+readme = "README.md"
+version = "0.0.1a"
 
 [tool.poetry.dependencies]
+numpy = "^1.22.4"
 python = ">=3.9,<3.12"
-numpy = "^1.24.2"
 scipy = "^1.10.1"
-
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
 jupyterlab = "^3.6.3"
 matplotlib = "^3.7.1"
-seaborn = "^0.12.2"
-plotly = "^5.14.1"
 pandas = "^2.0.0"
+plotly = "^5.14.1"
 scikit-learn = "^1.2.2"
+seaborn = "^0.12.2"
 tqdm = "^4.65.0"
 
 [build-system]
-requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
