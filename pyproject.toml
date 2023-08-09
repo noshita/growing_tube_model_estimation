@@ -5,7 +5,7 @@ license = "Apache-2.0"
 name = "growing-tube-model-estimation"
 packages = [{include = "growing_tube_model_estimation"}]
 readme = "README.md"
-version = "0.0.1a"
+version = "0.1.0"
 
 [tool.poetry.dependencies]
 numpy = "^1.22.4"
